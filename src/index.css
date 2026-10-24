@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 150 20% 98%;
+    --foreground: 200 25% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 200 25% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 200 25% 15%;
+
+    --primary: 152 45% 28%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 200 60% 45%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 150 15% 93%;
+    --muted-foreground: 200 10% 45%;
+
+    --accent: 35 85% 55%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 150 15% 88%;
+    --input: 150 15% 88%;
+    --ring: 152 45% 28%;
+
+    --radius: 0.75rem;
+
+    --forest: 152 45% 28%;
+    --forest-light: 150 30% 40%;
+    --sky: 200 60% 45%;
+    --sky-light: 200 55% 92%;
+    --snow: 210 30% 97%;
+    --golden: 35 85% 55%;
+    --golden-light: 38 90% 65%;
+    --earth: 25 30% 35%;
+
+    --font-display: 'Playfair Display', serif;
+    --font-body: 'DM Sans', sans-serif;
+
+    --gradient-hero: linear-gradient(135deg, hsl(152 45% 28% / 0.85), hsl(200 60% 45% / 0.7));
+    --gradient-golden: linear-gradient(135deg, hsl(35 85% 55%), hsl(38 90% 65%));
+    --gradient-forest: linear-gradient(135deg, hsl(152 45% 28%), hsl(150 30% 40%));
+    --shadow-card: 0 4px 20px -4px hsl(200 25% 15% / 0.08);
+    --shadow-elevated: 0 12px 40px -8px hsl(200 25% 15% / 0.15);
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-body);
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+  }
+}
+
+@layer components {
+  .section-padding {
+    @apply px-4 sm:px-6 lg:px-8 py-16 sm:py-20 lg:py-24;
+  }
+  .container-custom {
+    @apply max-w-7xl mx-auto;
+  }
+}
+
+@layer utilities {
+  .text-gradient-forest {
+    background: var(--gradient-forest);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .bg-gradient-hero {
+    background: var(--gradient-hero);
+  }
+  .bg-gradient-golden {
+    background: var(--gradient-golden);
+  }
+  .bg-gradient-forest {
+    background: var(--gradient-forest);
+  }
+  .shadow-card {
+    box-shadow: var(--shadow-card);
+  }
+  .shadow-elevated {
+    box-shadow: var(--shadow-elevated);
+  }
+}
