@@ -143,7 +143,7 @@ const Destinations = () => {
                     </div>
 
                     <a
-                      href="https://wa.me/919634878825?text=Hi%2C%20I%20need%20help%20planning%20my%20trip%20to%20Uttarakhand"
+                      href="https://wa.me/918009367361?text=Hi%2C%20I%20need%20help%20planning%20my%20trip%20to%20Uttarakhand"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="mt-3 flex items-center justify-center gap-2 px-3 py-2 rounded-lg bg-[hsl(142,70%,45%)] text-primary-foreground text-sm font-medium hover:opacity-90 transition-opacity"

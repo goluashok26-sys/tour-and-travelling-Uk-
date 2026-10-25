@@ -354,7 +354,7 @@ const Hotels = () => {
 
                           <div className="flex gap-2 pt-3 border-t border-border">
                             <a
-                              href={`https://wa.me/919634878825?text=Hi%2C%20I%20want%20to%20book%20${encodeURIComponent(h.name)}`}
+                              href={`https://wa.me/918009367361?text=Hi%2C%20I%20want%20to%20book%20${encodeURIComponent(h.name)}`}
                               target="_blank"
                               rel="noopener noreferrer"
                               className="flex-1 inline-flex items-center justify-center gap-1.5 px-3 py-2 rounded-lg bg-[hsl(142,70%,45%)] text-primary-foreground text-sm font-semibold hover:opacity-90 transition-opacity"
@@ -362,7 +362,7 @@ const Hotels = () => {
                               <MessageCircle className="h-4 w-4" /> WhatsApp
                             </a>
                             <a
-                              href="tel:+919634878825"
+                              href="tel:+918009367361"
                               className="flex-1 inline-flex items-center justify-center gap-1.5 px-3 py-2 rounded-lg bg-primary text-primary-foreground text-sm font-semibold hover:bg-forest-light transition-colors"
                             >
                               <Phone className="h-4 w-4" /> Call

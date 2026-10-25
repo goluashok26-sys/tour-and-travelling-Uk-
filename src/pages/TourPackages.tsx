@@ -93,7 +93,7 @@ const TourPackages = () => {
                     </p>
                     <div className="flex gap-3 pt-4 border-t border-border">
                       <a
-                        href="https://wa.me/919634878825?text=Hi%2C%20I%20want%20to%20book%20a%20tour%20package"
+                        href="https://wa.me/918009367361?text=Hi%2C%20I%20want%20to%20book%20a%20tour%20package"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex-1 inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg bg-[hsl(142,70%,45%)] text-primary-foreground text-sm font-semibold hover:opacity-90 transition-opacity"
@@ -101,7 +101,7 @@ const TourPackages = () => {
                         <MessageCircle className="h-4 w-4" /> WhatsApp
                       </a>
                       <a
-                        href="tel:+919634878825"
+                        href="tel:+918009367361"
                         className="flex-1 inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg bg-primary text-primary-foreground text-sm font-semibold hover:bg-forest-light transition-colors"
                       >
                         <Phone className="h-4 w-4" /> Call Now
@@ -117,7 +117,7 @@ const TourPackages = () => {
             <p className="text-lg font-display font-semibold text-foreground mb-2">Custom packages available on request</p>
             <p className="text-muted-foreground text-sm mb-4">Tell us your dream itinerary and we'll make it happen</p>
             <a
-              href="https://wa.me/919634878825?text=Hi%2C%20I%20want%20a%20custom%20tour%20package"
+              href="https://wa.me/918009367361?text=Hi%2C%20I%20want%20a%20custom%20tour%20package"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-gradient-golden text-accent-foreground font-semibold hover:scale-105 transition-transform"

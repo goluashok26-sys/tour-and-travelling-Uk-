@@ -54,7 +54,7 @@ const TaxiServices = () => {
                 </p>
                 <div className="flex gap-3">
                   <a
-                    href="https://wa.me/919634878825?text=Hi%2C%20I%20want%20to%20book%20a%20taxi"
+                    href="https://wa.me/918009367361?text=Hi%2C%20I%20want%20to%20book%20a%20taxi"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex-1 inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg bg-[hsl(142,70%,45%)] text-primary-foreground text-sm font-semibold hover:opacity-90 transition-opacity"
@@ -62,7 +62,7 @@ const TaxiServices = () => {
                     <MessageCircle className="h-4 w-4" /> WhatsApp
                   </a>
                   <a
-                    href="tel:+919634878825"
+                    href="tel:+918009367361"
                     className="flex-1 inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg bg-primary text-primary-foreground text-sm font-semibold hover:bg-forest-light transition-colors"
                   >
                     <Phone className="h-4 w-4" /> Call Now
@@ -78,13 +78,13 @@ const TaxiServices = () => {
             <p className="text-primary-foreground/80 mb-6">Available 24/7 for bookings and inquiries</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:+919634878825"
+                href="tel:+918009367361"
                 className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-lg bg-gradient-golden text-accent-foreground font-semibold hover:scale-105 transition-transform"
               >
-                <Phone className="h-5 w-5" /> +91 96348 78825
+                <Phone className="h-5 w-5" /> +91 80093 67361
               </a>
               <a
-                href="https://wa.me/919634878825"
+                href="https://wa.me/918009367361"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-lg border-2 border-primary-foreground/30 text-primary-foreground font-semibold hover:bg-primary-foreground/10 transition-colors"

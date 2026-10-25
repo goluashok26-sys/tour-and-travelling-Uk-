@@ -34,11 +34,11 @@ const Footer = () => {
             <div className="space-y-3 text-sm text-background/70">
               <div className="flex items-center gap-2">
                 <Phone className="h-4 w-4 text-golden" />
-                <a href="tel:+919634878825" className="hover:text-golden transition-colors">+91 96348 78825</a>
+                <a href="tel:+918009367361" className="hover:text-golden transition-colors">+91 80093 67361</a>
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="h-4 w-4 text-golden" />
-                <span>info@exploreuttarakhand.com</span>
+                <a href="mailto:goluashok26@gmail.com" className="hover:text-golden transition-colors">goluashok26@gmail.com</a>
               </div>
               <div className="flex items-center gap-2">
                 <MapPin className="h-4 w-4 text-golden" />

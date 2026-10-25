@@ -28,7 +28,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-display text-lg font-semibold text-foreground">Call Us</h3>
-                    <a href="tel:+919634878825" className="text-muted-foreground hover:text-primary transition-colors">+91 96348 78825</a>
+                    <a href="tel:+918009367361" className="text-muted-foreground hover:text-primary transition-colors">+91 80093 67361</a>
                   </div>
                 </motion.div>
                 <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} transition={{ delay: 0.1 }} viewport={{ once: true }} className="flex items-start gap-4 p-5 bg-card rounded-xl shadow-card">
@@ -37,7 +37,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-display text-lg font-semibold text-foreground">WhatsApp</h3>
-                    <a href="https://wa.me/919634878825" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">+91 96348 78825</a>
+                    <a href="https://wa.me/918009367361" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">+91 80093 67361</a>
                   </div>
                 </motion.div>
                 <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} transition={{ delay: 0.2 }} viewport={{ once: true }} className="flex items-start gap-4 p-5 bg-card rounded-xl shadow-card">
@@ -46,7 +46,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-display text-lg font-semibold text-foreground">Email</h3>
-                    <p className="text-muted-foreground">info@exploreuttarakhand.com</p>
+                    <a href="mailto:goluashok26@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">goluashok26@gmail.com</a>
                   </div>
                 </motion.div>
                 <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} transition={{ delay: 0.3 }} viewport={{ once: true }} className="flex items-start gap-4 p-5 bg-card rounded-xl shadow-card">
